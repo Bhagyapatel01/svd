@@ -1,0 +1,214 @@
+.landing {
+    min-height: calc(100vh - 64px);
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background: linear-gradient(135deg, #6366f1, #a855f7); */
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-bottom: 5rem;
+}
+
+#tag-line {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.get-started {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 8px;
+    background: white;
+    color: #6366f1;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.get-started:hover {
+    transform: translateY(-2px);
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    padding: 4rem 2rem;
+    background: #f8fafc;
+}
+
+.stat-item {
+    text-align: center;
+}
+
+.developer {
+    padding: 4rem 2rem;
+    text-align: center;
+    background: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+
+  }
+  
+  h1,h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .service-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 95%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .service-container {
+    display: flex;
+    gap: 15px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+  
+  .service-card {
+    flex: 0 0 250px;
+    background: #f0f0f0;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+  
+  .service-card h3 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .service-card p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .scroll-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 70;
+  }
+  
+  .scroll-btn:hover {
+    background: #0056b3;
+  }
+  
+  .scroll-left {
+    left: -20px;
+  }
+  
+  .scroll-right {
+    right: -20px;
+  }
+  
+
+/* Developer Section */
+.developer-container {
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap; /* Ensures responsiveness */
+  padding: 20px;
+}
+
+.developer-card {
+  width: 300px;
+  background: linear-gradient(145deg, #f0f0f3, #e4e4e7); /* Subtle gradient for a modern look */
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+.developer-card:hover {
+  transform: translateY(-5px); /* Card rises slightly on hover */
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2), 0 8px 10px rgba(0, 0, 0, 0.1);
+}
+
+.developer-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%; /* Circular image */
+  margin-bottom: 15px;
+  object-fit: cover; /* Ensures proper scaling */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.developer-card h4 {
+  margin-bottom: 10px;
+  color: #222;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.developer-card p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 10px;
+  font-style: italic; /* Optional styling for the role */
+}
+
+.developer-card h5 {
+  font-size: 14px;
+  color: #444;
+  margin: 5px 0;
+  line-height: 1.5;
+}
+
+.developer-card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+  border: 2px solid #007bff;
+  padding: 5px 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.developer-card a:hover {
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+}
+
